@@ -1,0 +1,193 @@
+Microsoft (R) COFF/PE Dumper Version 8.00.50727.762
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\windows\syswow64\ws2_32.dll
+
+File Type: DLL
+
+  Section contains the following exports for WS2_32.dll
+
+    00000000 characteristics
+    47919127 time date stamp Sat Jan 19 06:56:55 2008
+        0.00 version
+           1 ordinal base
+         500 number of functions
+         167 number of names
+
+    ordinal hint RVA      name
+
+         25    0 000113D9 FreeAddrInfoEx
+         26    1 000113D9 FreeAddrInfoExW
+         27    2 00003C08 FreeAddrInfoW
+         28    3 0001332F GetAddrInfoExA
+         29    4 0001288D GetAddrInfoExW
+         30    5 00003D12 GetAddrInfoW
+         31    6 00007274 GetNameInfoW
+         32    7 00010EDE InetNtopW
+         33    8 00010E0C InetPtonW
+         34    9 0001241C SetAddrInfoExA
+         35    A 00011543 SetAddrInfoExW
+        500    B 0001DA91 WEP
+         36    C 0001D717 WPUCompleteOverlappedRequest
+         37    D 0001BB56 WSAAccept
+         38    E 00005DD4 WSAAddressToStringA
+         39    F 000066DE WSAAddressToStringW
+         40   10 0001FB95 WSAAdvertiseProvider
+        102   11 0001608B WSAAsyncGetHostByAddr
+        103   12 00015FB9 WSAAsyncGetHostByName
+        105   13 0001613C WSAAsyncGetProtoByName
+        104   14 0001620E WSAAsyncGetProtoByNumber
+        107   15 00015E57 WSAAsyncGetServByName
+        106   16 00015F2F WSAAsyncGetServByPort
+        101   17 0001A17C WSAAsyncSelect
+        108   18 00016292 WSACancelAsyncRequest
+        113   19 00014024 WSACancelBlockingCall
+        116   1A 0000D4E4 WSACleanup
+         41   1B 00005D5F WSACloseEvent
+         42   1C 0000D7B0 WSAConnect
+         43   1D 0001B1C0 WSAConnectByList
+         44   1E 0001BA76 WSAConnectByNameA
+         45   1F 0001B708 WSAConnectByNameW
+         46   20 00005C66 WSACreateEvent
+         47   21 00014DDE WSADuplicateSocketA
+         48   22 00014D50 WSADuplicateSocketW
+         49   23 00019071 WSAEnumNameSpaceProvidersA
+         50   24 00019131 WSAEnumNameSpaceProvidersExA
+         58   25 00019191 WSAEnumNameSpaceProvidersExW
+         59   26 000190D1 WSAEnumNameSpaceProvidersW
+         60   27 00005CF3 WSAEnumNetworkEvents
+         61   28 00015109 WSAEnumProtocolsA
+         62   29 00009271 WSAEnumProtocolsW
+         63   2A 00005BFA WSAEventSelect
+        111   2B 00003035 WSAGetLastError
+         64   2C 00008143 WSAGetOverlappedResult
+         65   2D 00018858 WSAGetQOSByName
+         66   2E 00019C38 WSAGetServiceClassInfoA
+         67   2F 00019929 WSAGetServiceClassInfoW
+         68   30 00019519 WSAGetServiceClassNameByClassIdA
+         69   31 00019721 WSAGetServiceClassNameByClassIdW
+         70   32 00010F3C WSAHtonl
+         71   33 00011039 WSAHtons
+         72   34 00019BB9 WSAInstallServiceClassA
+         73   35 00019343 WSAInstallServiceClassW
+         74   36 00003C4A WSAIoctl
+        114   37 00014073 WSAIsBlocking
+         75   38 0001BD13 WSAJoinLeaf
+         76   39 00007A51 WSALookupServiceBeginA
+         77   3A 00004E93 WSALookupServiceBeginW
+         78   3B 00005564 WSALookupServiceEnd
+         79   3C 000077DA WSALookupServiceNextA
+         80   3D 0000455D WSALookupServiceNextW
+         81   3E 00009E1F WSANSPIoctl
+         82   3F 00010F3C WSANtohl
+         83   40 00011039 WSANtohs
+         84   41 0001A20D WSAPoll
+         85   42 0001FE83 WSAProviderCompleteAsyncCall
+         86   43 000088B4 WSAProviderConfigChange
+         87   44 00008400 WSARecv
+         88   45 00018AAD WSARecvDisconnect
+         89   46 00018B38 WSARecvFrom
+         90   47 0001942E WSARemoveServiceClass
+         91   48 0000D6D8 WSAResetEvent
+         92   49 00004496 WSASend
+         93   4A 0001A3E9 WSASendDisconnect
+         94   4B 0001A533 WSASendMsg
+         95   4C 0001A474 WSASendTo
+        109   4D 000140C6 WSASetBlockingHook
+         96   4E 0000D6FA WSASetEvent
+        112   4F 00003199 WSASetLastError
+         97   50 00019CCA WSASetServiceA
+         98   51 00019A69 WSASetServiceW
+         99   52 00008FA9 WSASocketA
+        100   53 000034EB WSASocketW
+        115   54 0000A639 WSAStartup
+        117   55 00007F00 WSAStringToAddressA
+        118   56 00006891 WSAStringToAddressW
+        119   57 0001F5DA WSAUnadvertiseProvider
+        110   58 0001411B WSAUnhookBlockingHook
+        120   59 00005C79 WSAWaitForMultipleEvents
+         24   5A 0001D8C2 WSApSetPostRoutine
+        121   5B 0001CAB5 WSCDeinstallProvider
+        122   5C 00018066 WSCEnableNSProvider
+        123   5D 000082E7 WSCEnumProtocols
+        124   5E 0001D2FD WSCGetApplicationCategory
+        125   5F 0001CCC1 WSCGetProviderInfo
+        126   60 000150F9 WSCGetProviderPath
+        127   61 00018379 WSCInstallNameSpace
+        128   62 00018531 WSCInstallNameSpaceEx
+        129   63 0001CA91 WSCInstallProvider
+        130   64 0001739F WSCInstallProviderAndChains
+        131   65 0001CF19 WSCSetApplicationCategory
+        132   66 0001C4B9 WSCSetProviderInfo
+        133   67 000186F1 WSCUnInstallNameSpace
+        134   68 0001C0FD WSCUpdateProvider
+        135   69 00018241 WSCWriteNameSpaceOrder
+        136   6A 0001C381 WSCWriteProviderOrder
+        137   6B 0000998D WahCloseApcHelper
+        138   6C 00021655 WahCloseHandleHelper
+        139   6D 00021DB5 WahCloseNotificationHandleHelper
+        140   6E 0002169A WahCloseSocketHandle
+        141   6F 0000325C WahCloseThread
+        142   70 000216E9 WahCompleteRequest
+        143   71 0000BCCC WahCreateHandleContextTable
+        144   72 00008A53 WahCreateNotificationHandle
+        145   73 00021BD6 WahCreateSocketHandle
+        146   74 00022148 WahDestroyHandleContextTable
+        147   75 00021921 WahDisableNonIFSHandleSupport
+        148   76 00021774 WahEnableNonIFSHandleSupport
+        149   77 000095E1 WahEnumerateHandleContexts
+        150   78 00003B33 WahInsertHandleContext
+        152   79 00021E17 WahNotifyAllProcesses
+        153   7A 0000A910 WahOpenApcHelper
+        154   7B 000063F9 WahOpenCurrentThread
+        155   7C 0000C7E6 WahOpenHandleHelper
+        156   7D 00008880 WahOpenNotificationHandleHelper
+        157   7E 00020FC0 WahQueueUserApc
+        158   7F 00002F50 WahReferenceContextByHandle
+        159   80 000033A4 WahRemoveHandleContext
+        160   81 00008978 WahWaitForNotification
+        161   82 00022203 WahWriteLSPEvent
+        151   83 000064EB __WSAFDIsSet
+          1   84 0001BDF6 accept
+          2   85 0000652F bind
+          3   86 0000330C closesocket
+          4   87 000040D9 connect
+        162   88 00003C08 freeaddrinfo
+        163   89 0000418A getaddrinfo
+         51   8A 00015A3F gethostbyaddr
+         52   8B 000162D4 gethostbyname
+         57   8C 000075EB gethostname
+        164   8D 00007175 getnameinfo
+          5   8E 0001A863 getpeername
+         53   8F 00015719 getprotobyname
+         54   90 0001565C getprotobynumber
+         55   91 00015CD3 getservbyname
+         56   92 00015B71 getservbyport
+          6   93 00006661 getsockname
+          7   94 00009C32 getsockopt
+          8   95 00002FD0 htonl
+          9   96 00003010 htons
+         11   97 000061EB inet_addr
+         12   98 00007DD3 inet_ntoa
+        165   99 00010E80 inet_ntop
+        166   9A 00010D99 inet_pton
+         10   9B 00003CE7 ioctlsocket
+         13   9C 00008CD7 listen
+         14   9D 00002FD0 ntohl
+         15   9E 00003010 ntohs
+         16   9F 0000343A recv
+         17   A0 00008E15 recvfrom
+         18   A1 000015F4 select
+         19   A2 0000659B send
+         20   A3 000067C5 sendto
+         21   A4 00004018 setsockopt
+         22   A5 00005C8A shutdown
+         23   A6 000036D1 socket
+
+  Summary
+
+        1000 .data
+        2000 .reloc
+        5000 .rsrc
+       24000 .text

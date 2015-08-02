@@ -1,0 +1,298 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\syswow64\urlmon.dll
+
+File Type: DLL
+
+  Section contains the following exports for urlmon.dll
+
+    00000000 characteristics
+    4C2AC77A time date stamp Wed Jun 30 06:26:34 2010
+        0.00 version
+         100 ordinal base
+         359 number of functions
+         117 number of names
+
+    ordinal hint RVA      name
+
+        109    0 00077628 AsyncGetClassBits = _AsyncGetClassBits@44
+        110    1 000774EA AsyncInstallDistributionUnit = _AsyncInstallDistributionUnit@36
+        117    2 0006415D BindAsyncMoniker = _BindAsyncMoniker@20
+        118    3 00077680 CDLGetLongPathNameA = _CDLGetLongPathNameA@12
+        119    4 0007769D CDLGetLongPathNameW = _CDLGetLongPathNameW@12
+        120    5 0003FB56 CoGetClassObjectFromURL = _CoGetClassObjectFromURL@40
+        121    6 00075BB1 CoInstall = _CoInstall@20
+        122    7 00022335 CoInternetCanonicalizeIUri = _CoInternetCanonicalizeIUri@12
+        123    8 00017341 CoInternetCombineIUri = _CoInternetCombineIUri@20
+        124    9 0002B22B CoInternetCombineUrl = _CoInternetCombineUrl@28
+        125    A 0002B191 CoInternetCombineUrlEx = _CoInternetCombineUrlEx@20
+        126    B 00065E79 CoInternetCompareUrl = _CoInternetCompareUrl@12
+        127    C 00014A12 CoInternetCreateSecurityManager = _CoInternetCreateSecurityManager@12
+        128    D 000147B1 CoInternetCreateZoneManager = _CoInternetCreateZoneManager@12
+        129    E 00096D02 CoInternetFeatureSettingsChanged = _CoInternetFeatureSettingsChanged@0
+        130    F 00065F07 CoInternetGetProtocolFlags = ?OnObjectAvailable@CBindStatusCallback@@UAGJABU_GUID@@PAUIUnknown@@@Z (public: virtual long __stdcall CBindStatusCallback::OnObjectAvailable(struct _GUID const &,struct IUnknown *))
+        131   10 000662EE CoInternetGetSecurityUrl = _CoInternetGetSecurityUrl@16
+        132   11 000071DD CoInternetGetSecurityUrlEx = _CoInternetGetSecurityUrlEx@16
+        133   12 00004652 CoInternetGetSession = _CoInternetGetSession@12
+        134   13 0000343E CoInternetIsFeatureEnabled = _CoInternetIsFeatureEnabled@8
+        135   14 00016ADF CoInternetIsFeatureEnabledForIUri = _CoInternetIsFeatureEnabledForIUri@16
+        136   15 00036A77 CoInternetIsFeatureEnabledForUrl = _CoInternetIsFeatureEnabledForUrl@16
+        137   16 00042077 CoInternetIsFeatureZoneElevationEnabled = _CoInternetIsFeatureZoneElevationEnabled@16
+        138   17 00035EFF CoInternetParseIUri = _CoInternetParseIUri@28
+        139   18 0002AFDC CoInternetParseUrl = _CoInternetParseUrl@28
+        140   19 00029BAD CoInternetQueryInfo = _CoInternetQueryInfo@28
+        141   1A 00029E6E CoInternetSetFeatureEnabled = _CoInternetSetFeatureEnabled@12
+        142   1B 0002E141 CompareSecurityIds = _CompareSecurityIds@20
+        143   1C 000314DD CompatFlagsFromClsid = _CompatFlagsFromClsid@12
+        144   1D 00027246 CopyBindInfo = _CopyBindInfo@8
+        145   1E 000272FF CopyStgMedium = _CopyStgMedium@8
+        146   1F 0003B78B CreateAsyncBindCtx = _CreateAsyncBindCtx@16
+        147   20 0002B88D CreateAsyncBindCtxEx = _CreateAsyncBindCtxEx@24
+        148   21 00039575 CreateFormatEnumerator = _CreateFormatEnumerator@12
+        149   22 0002CDCE CreateIUriBuilder = _CreateIUriBuilder@16
+        150   23 00028F90 CreateURLMoniker = _CreateURLMoniker@12
+        152   24 0002247B CreateURLMonikerEx = _CreateURLMonikerEx@16
+        151   25 000223EE CreateURLMonikerEx2 = _CreateURLMonikerEx2@16
+        153   26 0000390D CreateUri = _CreateUri@16
+        154   27 00072246 CreateUriFromMultiByteString = _CreateUriFromMultiByteString@24
+        155   28 00003955 CreateUriPriv = _CreateUriPriv@32
+        156   29 0000392E CreateUriWithFragment = _CreateUriWithFragment@20
+        157   2A 00003094 DllCanUnloadNow = _DllCanUnloadNow@0
+        158   2B 00005544 DllGetClassObject = _DllGetClassObject@12
+        159   2C 000644E0 DllInstall = _DllInstall@8
+        160   2D 000641E3 DllRegisterServer = _DllRegisterServer@0
+        161   2E 000644D5 DllRegisterServerEx = _DllRegisterServerEx@0
+        162   2F 0006436D DllUnregisterServer = _DllUnregisterServer@0
+        163   30 00077C9B Extract = _Extract@8
+        164   31 0003C63B FaultInIEFeature = _FaultInIEFeature@16
+        165   32 00026D3E FindMediaType = _FindMediaType@8
+        166   33 00039D1D FindMediaTypeClass = _FindMediaTypeClass@16
+        167   34 0002A016 FindMimeFromData = _FindMimeFromData@32
+        168   35 000975A5 GetAddSitesFileUrl = _GetAddSitesFileUrl@4
+        169   36 00066C7D GetClassFileOrMime = _GetClassFileOrMime@28
+        170   37 0007919D GetClassURL = ?SetPriority@CActiveSetupBinding@@UAGJJ@Z (public: virtual long __stdcall CActiveSetupBinding::SetPriority(long))
+        171   38 00078784 GetComponentIDFromCLSSPEC = _GetComponentIDFromCLSSPEC@8
+        172   39 0001914A GetIDNFlagsForUri = _GetIDNFlagsForUri@4
+        173   3A 00003F57 GetIUriPriv = _GetIUriPriv@8
+        174   3B 000A7821 GetLabelsFromNamedHost = _GetLabelsFromNamedHost@20
+        175   3C 0009A7EC GetMarkOfTheWeb = _GetMarkOfTheWeb@16
+        176   3D 0000C474 GetPortFromUrlScheme = _GetPortFromUrlScheme@8
+        177   3E 00073EB2 GetPropertyFromName = _GetPropertyFromName@8
+        178   3F 00073DBB GetPropertyName = _GetPropertyName@4
+        179   40 0007C322 GetSoftwareUpdateInfo = _GetSoftwareUpdateInfo@8
+        180   41 00030EBC GetUrlmonThreadNotificationHwnd = _GetUrlmonThreadNotificationHwnd@0
+        181   42 00092BDF HlinkGoBack = _HlinkGoBack@4
+        182   43 00092C5D HlinkGoForward = _HlinkGoForward@4
+        183   44 000940A9 HlinkNavigateMoniker = _HlinkNavigateMoniker@8
+        184   45 0009412D HlinkNavigateString = _HlinkNavigateString@8
+        185   46 00093ADD HlinkSimpleNavigateToMoniker = _HlinkSimpleNavigateToMoniker@32
+        186   47 000940CA HlinkSimpleNavigateToString = _HlinkSimpleNavigateToString@32
+        187   48 00075BA1 IEInstallScope = _IEInstallScope@4
+        188   49 000645A8 InstallFlash = _InstallFlash@16
+        189   4A 00033573 IntlPercentEncodeNormalize = _IntlPercentEncodeNormalize@16
+        190   4B 0002D378 IsAsyncMoniker = _IsAsyncMoniker@4
+        191   4C 00003F1D IsDWORDProperty = _IsDWORDProperty@4
+        192   4D 0009648B IsIntranetAvailable = _IsIntranetAvailable@0
+        193   4E 000BC9EC IsJITInProgress = _IsJITInProgress@0
+        194   4F 00094E52 IsLoggingEnabledA = _IsLoggingEnabledA@4
+        195   50 00094F7B IsLoggingEnabledW = _IsLoggingEnabledW@4
+        196   51 000175DB IsStringProperty = _IsStringProperty@4
+        197   52 0003F0E8 IsValidURL = _IsValidURL@12
+        198   53 0006400A MkParseDisplayNameEx = _MkParseDisplayNameEx@16
+        199   54 0002E846 ObtainUserAgentString = _ObtainUserAgentString@12
+        200   55 00077542 PrivateCoInstall = _PrivateCoInstall@20
+        201   56 0001FFEB QueryAssociations = _QueryAssociations@16
+        202   57 0006F231 QueryClsidAssociation = _QueryClsidAssociation@12
+        203   58 000216CF RegisterBindStatusCallback = _RegisterBindStatusCallback@16
+        204   59 0002BE10 RegisterFormatEnumerator = _RegisterFormatEnumerator@12
+        205   5A 00063F48 RegisterMediaTypeClass = _RegisterMediaTypeClass@20
+        206   5B 00063EF0 RegisterMediaTypes = _RegisterMediaTypes@12
+        207   5C 0002102A ReleaseBindInfo = _ReleaseBindInfo@4
+        208   5D 000641D4 ResetUrlmonLanguageData = _ResetUrlmonLanguageData@0
+        209   5E 00015975 RevokeBindStatusCallback = _RevokeBindStatusCallback@8
+        210   5F 00063FE5 RevokeFormatEnumerator = _RevokeFormatEnumerator@8
+        211   60 0007C386 SetSoftwareUpdateAdvertisementState = _SetSoftwareUpdateAdvertisementState@16
+        212   61 0006A9D9 ShouldDisplayPunycodeForUri = _ShouldDisplayPunycodeForUri@4
+        213   62 0002B94A ShouldShowIntranetWarningSecband = _ShouldShowIntranetWarningSecband@4
+        214   63 000970C5 ShowTrustAlertDialog = _ShowTrustAlertDialog@16
+        215   64 000662BC URLDownloadA = _URLDownloadA@20
+        216   65 00094BC3 URLDownloadToCacheFileA = _URLDownloadToCacheFileA@24
+        217   66 0003D2F7 URLDownloadToCacheFileW = _URLDownloadToCacheFileW@24
+        218   67 00094AA8 URLDownloadToFileA = _URLDownloadToFileA@20
+        219   68 000948CE URLDownloadToFileW = _URLDownloadToFileW@20
+        220   69 00065C98 URLDownloadW = _URLDownloadW@20
+        221   6A 00094D09 URLOpenBlockingStreamA = _URLOpenBlockingStreamA@20
+        222   6B 00094934 URLOpenBlockingStreamW = _URLOpenBlockingStreamW@20
+        223   6C 00094A0B URLOpenPullStreamA = _URLOpenPullStreamA@16
+        224   6D 00094884 URLOpenPullStreamW = _URLOpenPullStreamW@16
+        225   6E 00094DB5 URLOpenStreamA = _URLOpenStreamA@16
+        226   6F 000949C1 URLOpenStreamW = _URLOpenStreamW@16
+        227   70 000644F0 UrlMkBuildVersion = _UrlMkBuildVersion@0
+        228   71 00036B40 UrlMkGetSessionOption = _UrlMkGetSessionOption@20
+        229   72 000660E0 UrlMkSetSessionOption = _UrlMkSetSessionOption@16
+        230   73 00094EBE WriteHitLogging = _WriteHitLogging@4
+        231   74 0009A333 ZonesReInit = _ZonesReInit@4
+        100      00099B21 [NONAME] _ZoneMappingToRegKey@16
+        101      0002B9FD [NONAME] _CoInternetIsExtensionsOff@0
+        102      00070839 [NONAME] _CoInternetSetExtensionsOff@0
+        103      0003ABA8 [NONAME] _CoInternetExtensionAllowed@8
+        104      0003B258 [NONAME] _CoInternetCreateExtension@24
+        105      0003AC15 [NONAME] _CoInternetExtensionCollectStats@12
+        106      00070861 [NONAME] _CoInternetExtensionNeedsApproval@4
+        107      000708D8 [NONAME] _CoInternetApproveExtension@8
+        108      0000FB83 [NONAME] _IsInternetESCEnabledLocal@0
+        111      0002DDA7 [NONAME] _IsProtectedModeURL@8
+        112      0002D3C7 [NONAME] _IsProtectedModeIUri@8
+        113      0009B0D4 [NONAME] _IsFileInSpecialDirs@8
+        114      0003E378 [NONAME] _SkipBrokerCheckForURL@0
+        115      0007092E [NONAME] _IEIsProtectedModeURLInternal@4
+        116      00034B36 [NONAME] _CoInternetDomainNeedsApproval@8
+        304      0007421D [NONAME] _IECompatLogEventWithUrl@28
+        305      0007009F [NONAME] ?IECompatLogPopupMgr@@YGXPBG0K@Z (void __stdcall IECompatLogPopupMgr(unsigned short const *,unsigned short const *,unsigned long))
+        306      0006F2E7 [NONAME] ?IECompatLogMkAndViewSource@@YGXPBG@Z (void __stdcall IECompatLogMkAndViewSource(unsigned short const *))
+        307      0006F48B [NONAME] ?IECompatLogMimeHandling@@YGXPBG000H@Z (void __stdcall IECompatLogMimeHandling(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,int))
+        308      000A7459 [NONAME] ?IECompatLogControlBlock@@YGXPAVCLogInformation@ControlLogging@@@Z (void __stdcall IECompatLogControlBlock(class ControlLogging::CLogInformation *))
+        309      0006F687 [NONAME] ?IECompatLogObjCache@@YGXPBG@Z (void __stdcall IECompatLogObjCache(unsigned short const *))
+        310      0006FF0D [NONAME] ?IECompatLogWindowRestriction@@YGXPBG0PAUtagRECT@@@Z (void __stdcall IECompatLogWindowRestriction(unsigned short const *,unsigned short const *,struct tagRECT *))
+        311      0006F6BF [NONAME] ?IECompatLogBinaryBhvr@@YGXPBG0K@Z (void __stdcall IECompatLogBinaryBhvr(unsigned short const *,unsigned short const *,unsigned long))
+        312      0007017D [NONAME] ?IECompatLogIDNNavigation@@YGXPAUIUri@@@Z (void __stdcall IECompatLogIDNNavigation(struct IUri *))
+        313      0007028F [NONAME] ?IECompatLogSSLNavBlock@@YGXPBGK@Z (void __stdcall IECompatLogSSLNavBlock(unsigned short const *,unsigned long))
+        314      0006F773 [NONAME] ?IECompatLogRedirectUrl@@YGXPBG@Z (void __stdcall IECompatLogRedirectUrl(unsigned short const *))
+        315      0006F8C5 [NONAME] ?IECompatLogScriptUrl@@YGXPBG0@Z (void __stdcall IECompatLogScriptUrl(unsigned short const *,unsigned short const *))
+        316      0007035D [NONAME] ?IECompatLogAntiphishingUrl@@YGXPBGK@Z (void __stdcall IECompatLogAntiphishingUrl(unsigned short const *,unsigned long))
+        318      0006F587 [NONAME] ?IECompatLogZoneElevation3@@YGXPBG0@Z (void __stdcall IECompatLogZoneElevation3(unsigned short const *,unsigned short const *))
+        319      0006F5F2 [NONAME] ?IECompatLogZoneElevation4@@YGXPAUIUri@@PBG@Z (void __stdcall IECompatLogZoneElevation4(struct IUri *,unsigned short const *))
+        320      0006F7B5 [NONAME] ?IECompatLogSubframeNavigate@@YGXPBG00@Z (void __stdcall IECompatLogSubframeNavigate(unsigned short const *,unsigned short const *,unsigned short const *))
+        321      0006F620 [NONAME] ?IECompatLogFileDownloadWithSrcUrl@@YGXPBG0@Z (void __stdcall IECompatLogFileDownloadWithSrcUrl(unsigned short const *,unsigned short const *))
+        322      00070405 [NONAME] ?IECompatLogCSSFix@@YGXPBG0K@Z (void __stdcall IECompatLogCSSFix(unsigned short const *,unsigned short const *,unsigned long))
+        323      0006F9D7 [NONAME] ?IECompatLogUIPIBlockedExtension@@YGXKABU_GUID@@PBG@Z (void __stdcall IECompatLogUIPIBlockedExtension(unsigned long,struct _GUID const &,unsigned short const *))
+        324      0006788D [NONAME] _ResetWarnOnIntranetFlag@0
+        325      0002FC6D [NONAME] _PSCreateMemoryPropertyStore@8
+        326      0003104E [NONAME] _PSCreatePropertyStoreFromObject@16
+        327      0002F597 [NONAME] _PSCreateAdapterFromPropertyStore@12
+        328      000A0795 [NONAME] _VariantCompare@8
+        329      000A0622 [NONAME] _VariantToGUID@8
+        330      0002BAD7 [NONAME] _VariantToStringWithDefault@8
+        331      0009E671 [NONAME] _InitPropVariantFromBuffer@12
+        332      0009E6C0 [NONAME] _InitPropVariantFromCLSID@8
+        333      0009C5E0 [NONAME] _InitPropVariantFromFileTime@8
+        334      0009D24A [NONAME] ?InitPropVariantFromString@@YGJPBGPAUtagPROPVARIANT@@@Z (long __stdcall InitPropVariantFromString(unsigned short const *,struct tagPROPVARIANT *))
+        335      0002DC94 [NONAME] _InitVariantFromBuffer@12
+        336      0009FCC4 [NONAME] _InitVariantFromStrRet@12
+        337      00040A83 [NONAME] _PropVariantGetElementCount@4
+        338      0009ED2B [NONAME] _PropVariantToBoolean@8
+        339      0009EF8E [NONAME] _PropVariantToInt32@8
+        340      0009F097 [NONAME] _PropVariantToUInt32@8
+        341      0009F196 [NONAME] _PropVariantToInt64@8
+        342      0009F2D1 [NONAME] _PropVariantToUInt64@8
+        343      0009EDE5 [NONAME] _PropVariantToBooleanWithDefault@8
+        344      0009F051 [NONAME] _PropVariantToInt32WithDefault@8
+        345      0009F150 [NONAME] _PropVariantToUInt32WithDefault@8
+        346      0009F287 [NONAME] _PropVariantToInt64WithDefault@12
+        347      0009F3B1 [NONAME] _PropVariantToUInt64WithDefault@12
+        348      0009D8C2 [NONAME] _PropVariantToBuffer@12
+        349      0009F990 [NONAME] _PropVariantToFileTime@12
+        350      0009D95F [NONAME] _PropVariantToGUID@8
+        351      000303E2 [NONAME] _PropVariantToStringAlloc@8
+        352      0009FE7A [NONAME] _VariantToBoolean@8
+        353      0009FF37 [NONAME] _VariantToBooleanWithDefault@8
+        354      0009C863 [NONAME] _VariantToPropVariant@8
+        355      0009C913 [NONAME] _PropVariantToVariant@8
+        360      0009FB95 [NONAME] _ClearVariantArray@8
+        361      0009FAEE [NONAME] _InitVariantFromFileTime@8
+        362      0009FC80 [NONAME] _InitVariantFromGUIDAsString@8
+        363      0009FAB8 [NONAME] _InitVariantFromResource@12
+        364      00037378 [NONAME] _PropVariantToStringWithDefault@8
+        365      0009F87B [NONAME] _PropVariantToString@12
+        366      000A055F [NONAME] _VariantToBuffer@12
+        367      000A04A5 [NONAME] _VariantToDouble@8
+        368      000A1237 [NONAME] _VariantToDoubleArray@16
+        369      000A1DF0 [NONAME] _VariantToDoubleArrayAlloc@12
+        370      000A06DC [NONAME] _VariantToFileTime@12
+        371      0009FF7D [NONAME] _VariantToInt16@8
+        372      000A0039 [NONAME] _VariantToUInt16@8
+        373      000A00F4 [NONAME] _VariantToInt32@8
+        374      000A01C1 [NONAME] _VariantToUInt32@8
+        375      000A02CA [NONAME] _VariantToInt64@8
+        376      000A03C0 [NONAME] _VariantToUInt64@8
+        377      000A11D7 [NONAME] _VariantToInt16Array@16
+        378      000A11E7 [NONAME] _VariantToUInt16Array@16
+        379      000A11F7 [NONAME] _VariantToInt32Array@16
+        380      000A1207 [NONAME] _VariantToUInt32Array@16
+        381      000A1217 [NONAME] _VariantToInt64Array@16
+        382      000A1227 [NONAME] _VariantToUInt64Array@16
+        383      000A1DA0 [NONAME] _VariantToInt16ArrayAlloc@12
+        384      000A14E6 [NONAME] _VariantToUInt16ArrayAlloc@12
+        385      000A1DB0 [NONAME] _VariantToInt32ArrayAlloc@12
+        386      000A1DC0 [NONAME] _VariantToUInt32ArrayAlloc@12
+        387      000A0284 [NONAME] _VariantToUInt32WithDefault@8
+        388      000A1DD0 [NONAME] _VariantToInt64ArrayAlloc@12
+        389      000A1DE0 [NONAME] _VariantToUInt64ArrayAlloc@12
+        390      000A1A6B [NONAME] _VariantToString@12
+        391      000A15D4 [NONAME] _VariantToStringArray@16
+        392      000A1723 [NONAME] _VariantToStringArrayAlloc@12
+        393      000A14F3 [NONAME] _VariantToStringAlloc@8
+        394      000A06AD [NONAME] _VariantToStrRet@8
+        395      00030299 [NONAME] _PropVariantToBSTR@8
+        396      00040E2D [NONAME] _PropVariantChangeType@16
+        397      00030F0C [NONAME] _PSPropertyBag_ReadStrAlloc@12
+        398      0003EEF5 [NONAME] _PSPropertyBag_WriteDWORD@12
+        400      00033D13 [NONAME] ?InitCustomerFeedback@@YGJKW4_SQM_APPLICATION_IDS@@@Z (long __stdcall InitCustomerFeedback(unsigned long,enum _SQM_APPLICATION_IDS))
+        401      0002EE0D [NONAME] ?DeinitCustomerFeedback@@YGXH@Z (void __stdcall DeinitCustomerFeedback(int))
+        403      0003B0CB [NONAME] ?SqmAddExtensionClsid@@YGXPBU_GUID@@@Z (void __stdcall SqmAddExtensionClsid(struct _GUID const *))
+        404      000293F8 [NONAME] ?SqmOptedIn@@YGHXZ (int __stdcall SqmOptedIn(void))
+        406      000A7400 [NONAME] ?ScheduleSqmTasksInIdleThread@@YGXPAX@Z (void __stdcall ScheduleSqmTasksInIdleThread(void *))
+        407      000148FD [NONAME] ?IESqmGetSession@@YGPAXXZ (void * __stdcall IESqmGetSession(void))
+        408      00031954 [NONAME] ?LogSqmDWord@@YGHKK@Z (int __stdcall LogSqmDWord(unsigned long,unsigned long))
+        409      000A6ACC [NONAME] ?LogSqmBool@@YGHKK@Z (int __stdcall LogSqmBool(unsigned long,unsigned long))
+        410      00004E1E [NONAME] ?LogSqmBits@@YGHKK@Z (int __stdcall LogSqmBits(unsigned long,unsigned long))
+        411      000A6B10 [NONAME] ?LogSqmSetString@@YGHKPBG@Z (int __stdcall LogSqmSetString(unsigned long,unsigned short const *))
+        412      0002F011 [NONAME] ?LogSqmIfMax@@YGHKK@Z (int __stdcall LogSqmIfMax(unsigned long,unsigned long))
+        413      000A6B54 [NONAME] ?LogSqmIfMin@@YGHKK@Z (int __stdcall LogSqmIfMin(unsigned long,unsigned long))
+        414      00005161 [NONAME] ?LogSqmIncrement@@YGHKK@Z (int __stdcall LogSqmIncrement(unsigned long,unsigned long))
+        415      000A6B98 [NONAME] ?LogSqmAddToAverage@@YGHKK@Z (int __stdcall LogSqmAddToAverage(unsigned long,unsigned long))
+        416      0001BA61 [NONAME] ?LogSqmAddToStreamDWord@@YGHKKK@Z (int __stdcall LogSqmAddToStreamDWord(unsigned long,unsigned long,unsigned long))
+        417      000A6BDC [NONAME] ?LogSqmAddToStreamString@@YGHKKPBG@Z (int __stdcall LogSqmAddToStreamString(unsigned long,unsigned long,unsigned short const *))
+        420      00030B95 [NONAME] _FindDomainOrHostFromUri@24
+        421      0001BAB1 [NONAME] ?GetIESqmMutex@@YGPAXKK@Z (void * __stdcall GetIESqmMutex(unsigned long,unsigned long))
+        422      0001BA97 [NONAME] ?ReleaseIESqmMutex@@YGXPAX@Z (void __stdcall ReleaseIESqmMutex(void *))
+        423      0002A1E5 [NONAME] ?LogSqmUXCommandOffsetInternal@@YGXKKKK@Z (void __stdcall LogSqmUXCommandOffsetInternal(unsigned long,unsigned long,unsigned long,unsigned long))
+        430      000A64C8 [NONAME] ?IsSQMOptionEnabled@@YGHXZ (int __stdcall IsSQMOptionEnabled(void))
+        431      000A64E2 [NONAME] ?SetSQMOption@@YGJH@Z (long __stdcall SetSQMOption(int))
+        432      000A6C23 [NONAME] ?GetSQMUrl@@YGJPAGK@Z (long __stdcall GetSQMUrl(unsigned short *,unsigned long))
+        433      0003EA99 [NONAME] ?LCIELowerConnLimit@@YGXPBG@Z (void __stdcall LCIELowerConnLimit(unsigned short const *))
+        434      000704D7 [NONAME] ?IECompatLogApplicationProtocolDialog@@YGXPBG0I@Z (void __stdcall IECompatLogApplicationProtocolDialog(unsigned short const *,unsigned short const *,unsigned int))
+        435      0006FCB1 [NONAME] ?IECompatLogNavigationRestricted@@YGXPBG00@Z (void __stdcall IECompatLogNavigationRestricted(unsigned short const *,unsigned short const *,unsigned short const *))
+        436      0006FD49 [NONAME] ?IECompatLogMimeSniffUnsafe@@YGXPBG0@Z (void __stdcall IECompatLogMimeSniffUnsafe(unsigned short const *,unsigned short const *))
+        437      0006FE03 [NONAME] ?IECompatLogMimeSniffImageNotUpgraded@@YGXPBG0@Z (void __stdcall IECompatLogMimeSniffImageNotUpgraded(unsigned short const *,unsigned short const *))
+        438      000705BB [NONAME] ?IECompatLogProxyContentManaged@@YGXPBGPBDHHJK@Z (void __stdcall IECompatLogProxyContentManaged(unsigned short const *,char const *,int,int,long,unsigned long))
+        439      0006FEBD [NONAME] ?IECompatLogNoCompression@@YGXJ@Z (void __stdcall IECompatLogNoCompression(long))
+        440      0006ABAA [NONAME] ?LCIEGetEffectiveConnLimit@@YGHPAK@Z (int __stdcall LCIEGetEffectiveConnLimit(unsigned long *))
+        441      0002DC4E [NONAME] _UrlmonCreateInstance@16
+        442      0002DA3E [NONAME] _CreateBrowserEmulationFilter@8
+        443      000A8D8D [NONAME] _CreateReadOnlyBrowserEmulationFilter@8
+        444      0002BB6E [NONAME] _MapUriToBrowserEmulationState@12
+        445      0003184D [NONAME] _MapBrowserEmulationModeToUserAgent@8
+        446      0002AE21 [NONAME] _CoInternetGetBrowserProfile@4
+        447      000A8CF1 [NONAME] _CoInternetSetBrowserProfile@4
+        448      000A8F68 [NONAME] _DeleteBrowserEmulationUserData@4
+        449      0002E37A [NONAME] _CoInternetGetBrowserEmulationMode@4
+        450      0002DCDE [NONAME] _CoInternetSetBrowserEmulationMode@4
+        451      0002EE48 [NONAME] _CleanBrowserEmulationCache@4
+        452      00035692 [NONAME] _ClearSessionBasedEmulationData@8
+        453      00096D16 [NONAME] _GetSecMgrCacheSeed@8
+        454      00099B31 [NONAME] _SeedSecMgrCache@8
+        455      0009A2EA [NONAME] _FlushUrlmonZonesCache@0
+        456      0002EE7A [NONAME] _Urlmon_CleanIETldListCache@0
+        457      0000D2C3 [NONAME] _CreateIETldListManager@4
+        458      0006B86C [NONAME] _IsClientCertSuppliedInProcess@0
+
+  Summary
+
+        B000 .data
+        2000 .orpc
+        8000 .reloc
+       55000 .rsrc
+       CA000 .text

@@ -1,0 +1,193 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\syswow64\ws2_32.dll
+
+File Type: DLL
+
+  Section contains the following exports for WS2_32.dll
+
+    00000000 characteristics
+    4A5BBF59 time date stamp Tue Jul 14 01:12:25 2009
+        0.00 version
+           1 ordinal base
+         500 number of functions
+         167 number of names
+
+    ordinal hint RVA      name
+
+         25    0 0000DE59 FreeAddrInfoEx = _FreeAddrInfoEx@4
+         26    1 0000DE59 FreeAddrInfoExW = _FreeAddrInfoEx@4
+         27    2 00006387 FreeAddrInfoW = _freeaddrinfo@4
+         28    3 0001413B GetAddrInfoExA = _GetAddrInfoExA@40
+         29    4 0000D2B5 GetAddrInfoExW = _GetAddrInfoExW@40
+         30    5 000060F5 GetAddrInfoW = _GetAddrInfoW@16
+         31    6 0000E444 GetNameInfoW = _GetNameInfoW@28
+         32    7 0001355F InetNtopW = _InetNtopW@16
+         33    8 0001347C InetPtonW = _InetPtonW@12
+         34    9 00014097 SetAddrInfoExA = _SetAddrInfoExA@48
+         35    A 0000ECBC SetAddrInfoExW = _SetAddrInfoExW@48
+        500    B 0001E21C WEP
+         36    C 0001DE53 WPUCompleteOverlappedRequest = _WPUCompleteOverlappedRequest@20
+         37    D 0000E66B WSAAccept = _WSAAccept@20
+         38    E 00003837 WSAAddressToStringA = _WSAAddressToStringA@20
+         39    F 00003FEF WSAAddressToStringW = _WSAAddressToStringW@20
+         40   10 00020159 WSAAdvertiseProvider = _WSAAdvertiseProvider@8
+        102   11 00016E2B WSAAsyncGetHostByAddr = _WSAAsyncGetHostByAddr@28
+        103   12 00016D2A WSAAsyncGetHostByName = _WSAAsyncGetHostByName@20
+        105   13 00016F0E WSAAsyncGetProtoByName = _WSAAsyncGetProtoByName@20
+        104   14 0001700F WSAAsyncGetProtoByNumber = _WSAAsyncGetProtoByNumber@20
+        107   15 00016B67 WSAAsyncGetServByName = _WSAAsyncGetServByName@24
+        106   16 00016C6E WSAAsyncGetServByPort = _WSAAsyncGetServByPort@24
+        101   17 0001AACC WSAAsyncSelect = _WSAAsyncSelect@16
+        108   18 000170C2 WSACancelAsyncRequest = _WSACancelAsyncRequest@4
+        113   19 00014E08 WSACancelBlockingCall = _WSACancelBlockingCall@0
+        116   1A 00003661 WSACleanup = _WSACleanup@0
+         41   1B 00006AA0 WSACloseEvent = _WSACloseEvent@4
+         42   1C 0000BB9B WSAConnect = _WSAConnect@28
+         43   1D 0001BA95 WSAConnectByList = _WSAConnectByList@32
+         44   1E 0001C36E WSAConnectByNameA = _WSAConnectByNameA@36
+         45   1F 0001BFE7 WSAConnectByNameW = _WSAConnectByNameW@36
+         46   20 00006A7C WSACreateEvent = _WSACreateEvent@0
+         47   21 00015C7A WSADuplicateSocketA = _WSADuplicateSocketA@12
+         48   22 00015BEC WSADuplicateSocketW = _WSADuplicateSocketW@12
+         49   23 00019A79 WSAEnumNameSpaceProvidersA = _WSAEnumNameSpaceProvidersA@8
+         50   24 00019AD9 WSAEnumNameSpaceProvidersExA = _WSAEnumNameSpaceProvidersExA@8
+         58   25 00019B39 WSAEnumNameSpaceProvidersExW = _WSAEnumNameSpaceProvidersExW@8
+         59   26 0000E24B WSAEnumNameSpaceProvidersW = _WSAEnumNameSpaceProvidersW@8
+         60   27 000031C8 WSAEnumNetworkEvents = _WSAEnumNetworkEvents@12
+         61   28 00015D43 WSAEnumProtocolsA = _WSAEnumProtocolsA@12
+         62   29 0000B8C7 WSAEnumProtocolsW = _WSAEnumProtocolsW@12
+         63   2A 00006A10 WSAEventSelect = _WSAEventSelect@12
+        111   2B 00003395 WSAGetLastError = _WSAGetLastError@0
+         64   2C 0000E860 WSAGetOverlappedResult = _WSAGetOverlappedResult@20
+         65   2D 00019620 WSAGetQOSByName = _WSAGetQOSByName@12
+         66   2E 0001A4B8 WSAGetServiceClassInfoA = _WSAGetServiceClassInfoA@16
+         67   2F 0001A301 WSAGetServiceClassInfoW = _WSAGetServiceClassInfoW@16
+         68   30 00019F05 WSAGetServiceClassNameByClassIdA = _WSAGetServiceClassNameByClassIdA@12
+         69   31 0001A109 WSAGetServiceClassNameByClassIdW = _WSAGetServiceClassNameByClassIdW@12
+         70   32 000135C4 WSAHtonl = _WSAHtonl@12
+         71   33 000136B1 WSAHtons = _WSANtohs@12
+         72   34 0001A439 WSAInstallServiceClassA = _WSAInstallServiceClassA@4
+         73   35 00019D2F WSAInstallServiceClassW = _WSAInstallServiceClassW@4
+         74   36 00003094 WSAIoctl = _WSAIoctl@36
+        114   37 00014E83 WSAIsBlocking = _WSAIsBlocking@0
+         75   38 0001C535 WSAJoinLeaf = _WSAJoinLeaf@32
+         76   39 00009789 WSALookupServiceBeginA = _WSALookupServiceBeginA@12
+         77   3A 0000561A WSALookupServiceBeginW = _WSALookupServiceBeginW@12
+         78   3B 00005198 WSALookupServiceEnd = _WSALookupServiceEnd@4
+         79   3C 00009517 WSALookupServiceNextA = _WSALookupServiceNextA@16
+         80   3D 00004C59 WSALookupServiceNextW = _WSALookupServiceNextW@16
+         81   3E 0000E8D1 WSANSPIoctl = _WSANSPIoctl@32
+         82   3F 000135C4 WSANtohl = _WSAHtonl@12
+         83   40 000136B1 WSANtohs = _WSANtohs@12
+         84   41 0001AB5D WSAPoll = _WSAPoll@12
+         85   42 000207C9 WSAProviderCompleteAsyncCall = _WSAProviderCompleteAsyncCall@8
+         86   43 0000B21F WSAProviderConfigChange = _WSAProviderConfigChange@12
+         87   44 0000C29F WSARecv = _WSARecv@28
+         88   45 00019875 WSARecvDisconnect = _WSARecvDisconnect@8
+         89   46 0000418D WSARecvFrom = _WSARecvFrom@36
+         90   47 00019E1A WSARemoveServiceClass = _WSARemoveServiceClass@4
+         91   48 0000BB79 WSAResetEvent = _WSAResetEvent@4
+         92   49 000068A7 WSASend = _WSASend@28
+         93   4A 0001AD39 WSASendDisconnect = _WSASendDisconnect@8
+         94   4B 0001AE83 WSASendMsg = _WSASendMsg@24
+         95   4C 0001ADC4 WSASendTo = _WSASendTo@36
+        109   4D 00014F02 WSASetBlockingHook = _WSASetBlockingHook@4
+         96   4E 0000BB8A WSASetEvent = _WSASetEvent@4
+        112   4F 00003F79 WSASetLastError = _WSASetLastError@4
+         97   50 0001A54A WSASetServiceA = _WSASetServiceA@12
+         98   51 0000EDCC WSASetServiceW = _WSASetServiceW@12
+         99   52 0000B7FC WSASocketA = _WSASocketA@24
+        100   53 00003D1B WSASocketW = _WSASocketW@24
+        115   54 0000C0FB WSAStartup = _WSAStartup@8
+        117   55 000039CD WSAStringToAddressA = _WSAStringToAddressA@20
+        118   56 000040D5 WSAStringToAddressW = _WSAStringToAddressW@20
+        119   57 00020293 WSAUnadvertiseProvider = _WSAUnadvertiseProvider@4
+        110   58 00014F86 WSAUnhookBlockingHook = _WSAUnhookBlockingHook@0
+        120   59 00006A8F WSAWaitForMultipleEvents = _WSAWaitForMultipleEvents@20
+         24   5A 0001DFFE WSApSetPostRoutine = ?WSApSetPostRoutine@@YGHPAX@Z (int __stdcall WSApSetPostRoutine(void *))
+        121   5B 0001D22D WSCDeinstallProvider = _WSCDeinstallProvider@8
+        122   5C 00018E64 WSCEnableNSProvider = _WSCEnableNSProvider@8
+        123   5D 0000A887 WSCEnumProtocols = _WSCEnumProtocols@16
+        124   5E 0001DA39 WSCGetApplicationCategory = _WSCGetApplicationCategory@24
+        125   5F 0001D419 WSCGetProviderInfo = _WSCGetProviderInfo@24
+        126   60 0000B653 WSCGetProviderPath = _WSCGetProviderPath@16
+        127   61 00019161 WSCInstallNameSpace = _WSCInstallNameSpace@20
+        128   62 00019311 WSCInstallNameSpaceEx = _WSCInstallNameSpaceEx@24
+        129   63 0001D209 WSCInstallProvider = _WSCInstallProvider@20
+        130   64 0001824F WSCInstallProviderAndChains = _WSCInstallProviderAndChains@32
+        131   65 0001D651 WSCSetApplicationCategory = _WSCSetApplicationCategory@28
+        132   66 0001CC89 WSCSetProviderInfo = _WSCSetProviderInfo@24
+        133   67 000194C9 WSCUnInstallNameSpace = _WSCUnInstallNameSpace@4
+        134   68 0001C8E5 WSCUpdateProvider = _WSCUpdateProvider@20
+        135   69 00019029 WSCWriteNameSpaceOrder = _WSCWriteNameSpaceOrder@8
+        136   6A 0001CB51 WSCWriteProviderOrder = _WSCWriteProviderOrder@8
+        137   6B 00009F5A WahCloseApcHelper = _WahCloseApcHelper@4
+        138   6C 0002237D WahCloseHandleHelper = _WahCloseHandleHelper@4
+        139   6D 00022EB1 WahCloseNotificationHandleHelper = _WahCloseNotificationHandleHelper@4
+        140   6E 000223C2 WahCloseSocketHandle = _WahCloseSocketHandle@8
+        141   6F 000016B3 WahCloseThread = _WahCloseThread@8
+        142   70 00022411 WahCompleteRequest = _WahCompleteRequest@20
+        143   71 00007241 WahCreateHandleContextTable = _WahCreateHandleContextTable@4
+        144   72 0000B3BB WahCreateNotificationHandle = _WahCreateNotificationHandle@8
+        145   73 00022CD0 WahCreateSocketHandle = _WahCreateSocketHandle@8
+        146   74 0000EF69 WahDestroyHandleContextTable = _WahDestroyHandleContextTable@4
+        147   75 0002264D WahDisableNonIFSHandleSupport = _WahDisableNonIFSHandleSupport@0
+        148   76 0002249F WahEnableNonIFSHandleSupport = _WahEnableNonIFSHandleSupport@0
+        149   77 00009BAF WahEnumerateHandleContexts = _WahEnumerateHandleContexts@12
+        150   78 00004443 WahInsertHandleContext = _WahInsertHandleContext@8
+        152   79 00022F13 WahNotifyAllProcesses = _WahNotifyAllProcesses@4
+        153   7A 00007F50 WahOpenApcHelper = _WahOpenApcHelper@4
+        154   7B 0000356C WahOpenCurrentThread = _WahOpenCurrentThread@8
+        155   7C 00022902 WahOpenHandleHelper = _WahOpenHandleHelper@4
+        156   7D 0000B1EB WahOpenNotificationHandleHelper = _WahOpenNotificationHandleHelper@4
+        157   7E 00021CE6 WahQueueUserApc = _WahQueueUserApc@16
+        158   7F 00002FD0 WahReferenceContextByHandle = _WahReferenceContextByHandle@8
+        159   80 00003C85 WahRemoveHandleContext = _WahRemoveHandleContext@8
+        160   81 0000B2E0 WahWaitForNotification = _WahWaitForNotification@16
+        161   82 000232B5 WahWriteLSPEvent = _WahWriteLSPEvent@8
+        151   83 00004A6D __WSAFDIsSet = ___WSAFDIsSet@8
+          1   84 0000E64B accept = _accept@12
+          2   85 000046BC bind = _bind@12
+          3   86 00003BED closesocket = _closesocket@4
+          4   87 000048BE connect = _connect@12
+        162   88 00006387 freeaddrinfo = _freeaddrinfo@4
+        163   89 00006737 getaddrinfo = _getaddrinfo@16
+         51   8A 000166C1 gethostbyaddr = _gethostbyaddr@12
+         52   8B 00017133 gethostbyname = _gethostbyname@4
+         57   8C 00009307 gethostname = _gethostname@8
+        164   8D 0000E54C getnameinfo = _getnameinfo@28
+          5   8E 0000C355 getpeername = _getpeername@12
+         53   8F 00016373 getprotobyname = _getprotobyname@4
+         54   90 00016284 getprotobynumber = _getprotobynumber@4
+         55   91 000169B3 getservbyname = _getservbyname@8
+         56   92 00016822 getservbyport = _getservbyport@8
+          6   93 0000315C getsockname = _getsockname@12
+          7   94 0000E71E getsockopt = _getsockopt@20
+          8   95 00002F77 htonl = _htonl@4
+          9   96 00002FAB htons = _ntohs@4
+         11   97 00003234 inet_addr = _inet_addr@4
+         12   98 00009F8C inet_ntoa = _inet_ntoa@4
+        165   99 000134FA inet_ntop = _inet_ntop@16
+        166   9A 00013409 inet_pton = _inet_pton@12
+         10   9B 00003131 ioctlsocket = _ioctlsocket@12
+         13   9C 0000A6EA listen = _listen@8
+         14   9D 00002F77 ntohl = _htonl@4
+         15   9E 00002FAB ntohs = _ntohs@4
+         16   9F 000047DF recv = _recv@16
+         17   A0 0000BF39 recvfrom = _recvfrom@24
+         18   A1 00004981 select = _select@20
+         19   A2 0000C4C8 send = _send@16
+         20   A3 00003AED sendto = _sendto@24
+         21   A4 000045F9 setsockopt = _setsockopt@20
+         22   A5 0000693E shutdown = _shutdown@8
+         23   A6 00003F00 socket = _socket@12
+
+  Summary
+
+        1000 .data
+        2000 .reloc
+        B000 .rsrc
+       26000 .text

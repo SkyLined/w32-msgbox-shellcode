@@ -1,0 +1,11 @@
+; Hash v1.0 config file
+[modules]
+kernel32
+user32
+[functions]
+kernel32!LoadLibraryA
+user32!MessageBoxA
+[hash function]
+XORROR16B
+[collision level]
+all
