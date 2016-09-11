@@ -1,23 +1,30 @@
 How to generate and add dumpbin exports to the store:
 
-1) Find out what type of CPU Windows is running on:
-  C:\Users\SkyLined>set processor
-  PROCESSOR_ARCHITECTURE=AMD64
-  PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 15 Stepping 11, GenuineIntel
-  PROCESSOR_LEVEL=6
-  PROCESSOR_REVISION=0f0b
+* Find out what Instruction Set Architecture (ISA) Windows is using. At a cmd.exe prompt run:
+
+  >SET PROCESSOR_ARCHITECTURE
 
 PROCESSOR_ARCHITECTURE will be either AMD64 or x86. The store uses x64 and x86 respectively.
 
-2) Find out the version of Windows you are running:
-  C:\Users\SkyLined>ver
+* Find out the version of Windows you are running. At a cmd.exe prompt run:
   
-  Microsoft Windows [Version 6.0.6002]
+  >VER
+  
+The version will be something like "Microsoft Windows [Version 6.0.6002]". The store uses only the version number.
 
-The store uses only the version number.
+* Generate the exports using dumpbin. The command needed depend on the Instruction Set Architecture:
 
-3) Generate the exports using dumpbin:
-  DUMPBIN /exports %windir%\System32\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - System32).txt"
-  DUMPBIN /exports %windir%\SysWOW64\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - SysWOW64).txt"
+If PROCESSOR_ARCHITECTURE is x86, at a cmd.exe prompt run:
 
-On x86 systems, you only need to execute the first command.
+  >DUMPBIN /exports %windir%\System32\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - System32).txt"
+
+If PROCESSOR_ARCHITECTURE is x64, and you are using the the 64-bit version of DUMPBIN, at a cmd.exe prompt run:
+
+  >DUMPBIN /exports %windir%\System32\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - System32).txt"
+  >DUMPBIN /exports %windir%\SysWOW64\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - SysWOW64).txt"
+
+If PROCESSOR_ARCHITECTURE is x64, and you are using the the 32-bit version of DUMPBIN, at a cmd.exe prompt run:
+
+  >DUMPBIN /exports %windir%\System32\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - System32).txt"
+  >DUMPBIN /exports %windir%\SysNative\[dll name].dll  > "dumpbin exports - [dll name] (Windows [version] [CPU] - SysWOW64).txt"
+
